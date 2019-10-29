@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {
     "lodash": "^4.17.15",
-    "react": "^16.2.0",
+    "react": "^16.11.0",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.11.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1",
+    "react-scripts": "^3.2.0",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-persist": "^5.7.2",
@@ -20,5 +20,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
